@@ -1,0 +1,146 @@
+.menu_init {
+    background-color: whitesmoke;
+    margin: 200px 180px 0 180px;
+    width: 1180x;
+    height: 100px;
+    
+}
+.menu_init ul {
+    list-style: none;
+}
+.menu_init ul li {
+    text-align: right;
+    padding: 1px;
+}
+.menu_init .menu_h2 {
+    text-align: left;
+    padding: 3px;
+}
+
+.menu_box {
+    display: flex;
+    margin-top: 70px;
+}
+
+.menu_select {
+    background-color: whitesmoke;
+    width: 270px;
+    min-height: 400px;
+    border-top: 6px solid #5c5953;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.menu_select ul {
+    list-style: none;
+}
+.menu_select ul li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.menu_list {
+    width: 350px;
+    padding-left: 25px;
+    vertical-align: top;
+}
+
+.menu_list_wrap {
+    list-style: none;
+}
+.dp {
+    color: #909090;
+    padding-bottom: 5px;
+}
+.h3_tit {
+    font-weight: normal;
+    font-size: 24px;
+    display: block;
+}
+.menu_area {
+    width: 270px;
+    height: 335px;
+    margin: 10px;
+}
+.menu_block, .menu_txt {
+    text-align: center;
+}
+
+.menu_content {
+    max-width: 1170px;
+    width: 100%;
+    margin: 200px auto;
+}
+.ontitle {
+    background-color: whitesmoke;
+    height: 140px;
+}
+.ontitle h2 {
+    position: relative;
+    padding: 50px 10px 50px 20px;
+    vertical-align: middle;
+}
+.menu_detail {
+    border-top: 1px solid gainsboro;
+    position: relative;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.menu_detail_img {
+    background: url(../public/images/menu_bulgogi.jpg);
+    width: 500px;
+    height: 600px;
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin: 0 auto;
+}
+.h3_main {
+    padding: 50px 0 30px 550px;
+}
+.h3_1 {
+    color: #cfc6bc;
+    font-size: 15px;
+}
+.h3_2 {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.txt_p1 {
+    padding: 50px 0 30px 550px;
+    color: #373737;
+    font-size: 15px;
+    line-height: 160%;
+}
+.menu_detail_option ul{
+    color: #373737;
+    font-size: 15px;
+    padding: 50px 0 30px 550px;
+    list-style: none;
+}
+.menu_detail_option label {
+    color: #373737;
+    font-size: 15px;
+    padding: 3px;
+}
+.checkoption {
+    color: #909090;
+    font-size: 15px;
+}
+.total_price {
+    padding: 10px 30px 50px 0;
+    display: flex;
+    float: right;
+}
+.total_price_result {
+    position:relative;
+    padding: 10px;
+    color: #5c5953;
+    font-size: 18px;
+}
+.price_wrap {
+    position: relative;
+    color: #f2c000;
+    font-size: 36px;
+
+}
